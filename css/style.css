@@ -1,0 +1,298 @@
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -25px;
+  margin-left: -25px;
+}
+
+/*Typography - Start*/
+
+body {
+  font-family: georgia;
+  font-size: 1.07rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+}
+
+a {
+  color: #2b3990;
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+h1 {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.article-page h1 {
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top-color: currentcolor;
+  border-top-style: none;
+  border-top-width: 0px;
+  border-top: 1px solid rgba(0, 0, 0, .6);
+}
+
+.lead {
+  font-size: 1.07rem;
+  font-weight: 300;
+  color: #636466;
+}
+
+.homepage-text {
+  font-size: 22px;
+  font-weight: 300;
+  color: #231f20;
+}
+
+.article-header {
+  text-align: center;
+}
+
+.article-header .author {
+  font-style: italic;
+}
+
+.article-header .publish-date {
+  font-weight: bold;
+}
+
+.article-header .update-link a {
+  font-weight: bold;
+}
+
+/*Top Purple Branding Bar*/
+
+.bg-dark {
+  background-color: #4D2A69 !important;
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255, .5);
+  border: none;
+}
+
+/*NYU Branding - Start*/
+
+.nyu_logo a {
+  width: 160px !important;
+}
+
+/*GlobaLex Branding - Start*/
+
+.globalex_logo {
+  margin: 50px 0px 50px 0px;
+}
+
+/*Article Navigation - Start*/
+
+.article_navigation {
+  margin: 40px 0px 40px 0px;
+}
+
+.article_navigation .nav-item {
+  background-color: #3d698d;
+  margin-right: 10px;
+}
+
+.article_navigation .nav-item:hover {
+  background-color: #5c5c5c;
+}
+
+.article_navigation .nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.0rem;
+  text-transform: uppercase;
+  font-family: 'Asap', sans-serif;
+  font-weight: 500;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.0rem;
+  text-transform: uppercase;
+  font-family: 'Asap', sans-serif;
+  font-weight: 500;
+}
+
+.article_navigation .nav-pills .nav-link {
+  border-radius: 0rem;
+}
+
+/*Homepage Search Bar - Start*/
+
+.search {
+  margin: 40px 0px 40px 0px;
+  background-color: #e9ecef !important;
+  padding: 20px;
+}
+
+.form-inline .form-control {
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+/*Button - Start*/
+
+.btn-primary {
+  color: #fff;
+  background-color: #4c2969;
+  border-color: #4c2969;
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 1.0rem;
+  font-family: 'Asap', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.btn-lg {
+  padding: .5rem 1rem;
+  line-height: 1.5;
+  border-radius: 0;
+}
+
+/*Last Updated - Start*/
+
+.last-updated {
+  float: right;
+  color: #636466;
+  font-size: 1.05rem;
+}
+
+.last-updated p {
+  margin-top: 0;
+  margin-bottom: .5rem;
+}
+
+/*Cards for Recently Updated Articles - Start*/
+
+.jumbotron a {
+  color: #2b3990;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.jumbotron a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.jumbotron {
+  padding: 1.5rem 1.5rem;
+  border-radius: 0;
+}
+
+.jumbotron .category {
+  font-weight: bold;
+  color: #636466;
+  margin-bottom: 5px;
+}
+
+.jumbotron p {
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.jumbotron {
+  margin-bottom: 1.5rem;
+}
+
+/*Article Table of Contents - Start*/
+
+.table-of-contents ul {
+  list-style: none;
+}
+
+/*Footer - Start*/
+
+.purple_band {
+  background-color: #4D2A69;
+  height: 50px;
+}
+
+.white_band {
+  background-color: #ffffff;
+  height: 50px;
+  padding: 15px 0px;
+}
+
+.foot-notes ul {
+  list-style: none;
+}
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {}
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+  .globalex_logo img {
+    width: 100% !important;
+  }
+  .navbar img {
+    width: 100% !important;
+  }
+  .article_navigation .nav-item {
+    background-color: #3d698d;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {}
+
