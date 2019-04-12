@@ -16,10 +16,6 @@
   margin-left: -30px;
 }
 
-#toc ul {
-  margin-left: -30px;
-}
-
 #publishedBlock {
   text-align: center;
 }
@@ -245,7 +241,6 @@ hr {
 .jumbotron {
   padding: 1.5rem 1.5rem;
   border-radius: 0;
-  min-height: 215px;
 }
 
 .jumbotron .category {
@@ -267,6 +262,10 @@ hr {
 
 #toc ul {
   list-style: none;
+}
+
+#toc ul {
+  margin-left: -30px;
 }
 
 /*Footer - Start*/
@@ -293,7 +292,16 @@ hr {
 
 /* Small Devices, Tablets */
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+
+    .article_navigation .nav-item {
+    background-color: #3d698d;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+}
 
 /* Extra Small Devices, Phones */
 
@@ -308,6 +316,13 @@ hr {
     background-color: #3d698d;
     margin-right: 10px;
     margin-bottom: 10px;
+  }
+
+  .article_navigation .nav-item {
+    background-color: #3d698d;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 100%;
   }
 }
 
