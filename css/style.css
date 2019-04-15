@@ -379,6 +379,12 @@ hr {
 		margin-bottom: 10px;
 		width: 100%;
 	}
+	.form-inline .form-control {
+		display: inline-block;
+		width: 63%;
+		vertical-align: middle;
+		margin-right: 15px;
+	}
 }
 
 /* Custom, iPhone Retina */
