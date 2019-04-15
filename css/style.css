@@ -202,6 +202,7 @@ hr {
 	width: 90%;
 	vertical-align: middle;
 	margin-right: 21px;
+	border-radius: 0;
 }
 
 /*Button - Start*/
@@ -384,6 +385,7 @@ hr {
 		width: 63%;
 		vertical-align: middle;
 		margin-right: 15px;
+		border-radius: 0;
 	}
 }
 
