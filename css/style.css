@@ -151,6 +151,11 @@ hr {
 	margin-right: 10px;
 }
 
+.article_navigation .nav-item:last-child {
+	background-color: #3d698d;
+	margin-right: 0px;
+}
+
 .article_navigation .nav-item:hover {
 	background-color: #5c5c5c;
 }
