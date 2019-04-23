@@ -328,10 +328,11 @@ hr {
 
 #toc ul {
 	list-style: none;
+	margin-left: -40px;
 }
 
-#toc ul {
-	margin-left: -30px;
+#toc ul ul {
+	margin-left: 0px;
 }
 
 #toc a {
