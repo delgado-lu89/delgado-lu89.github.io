@@ -9,12 +9,13 @@
 
 .topic {
 	font-weight: bold;
+	display: block;
 }
 
 .contact-info {
-	border: 1px solid #e4e4e4;
+    border: 1px solid #e4e4e4;
+    margin-bottom: 20px;
 }
-
 .contact-info .content {
 	padding: 10px;
 }
@@ -224,6 +225,11 @@ hr {
 	font-weight: 500;
 }
 
+.btn-primary a {
+	color: #fff;
+	text-decoration: none;
+}
+
 .btn-primary:hover {
 	color: #fff;
 	background-color: #5c5c5c;
@@ -317,7 +323,7 @@ hr {
 }
 
 .all-articles li {
-	margin-bottom: 5px;
+	margin-bottom: 1em;
 }
 
 #toc ul {
