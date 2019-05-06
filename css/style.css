@@ -423,6 +423,14 @@ hr {
 		font-weight: bold;
 		text-align: center;
 	}
+	.row {
+		margin-right: -35px;
+		margin-left: -35px;
+	}
+	.container {
+    	padding-right: 20px;
+    	padding-left: 20px;
+	}
 }
 
 /* Custom, iPhone Retina */
