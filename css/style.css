@@ -395,6 +395,11 @@ hr {
 	.navbar {
 		padding: .5rem 0rem;
 	}
+	.all-articles {
+    	list-style: none;
+    	margin-left: -25px;
+    	margin-right: 15px;
+	}
 	.article_navigation .nav-item {
 		background-color: #3d698d;
 		margin-right: 0px !important;
