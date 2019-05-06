@@ -7,40 +7,6 @@
 	margin-left: -30px;
 }
 
-.topic {
-	font-weight: bold;
-	display: block;
-}
-
-.contact-info {
-    border: 1px solid #e4e4e4;
-    margin-bottom: 20px;
-}
-.contact-info .content {
-	padding: 10px;
-}
-
-.contact-info .block-title {
-	background-color: #5c5c5c;
-	color: #ffffff;
-	padding: 10px;
-	text-align: left;
-	text-transform: uppercase;
-	font-family: 'Asap', sans-serif;
-	font-size: 1.0rem;
-	font-family: 'Asap', sans-serif;
-	font-weight: 500;
-	margin-bottom: 0;
-}
-
-
-
-.white_band p {
-    text-align: center;
-}
-
-
-
 /*Typography - Start*/
 
 body {
@@ -203,6 +169,11 @@ hr {
 	background-color: #5c5c5c;
 }
 
+.topic {
+	font-weight: bold;
+	display: block;
+}
+
 /*Homepage Search Bar - Start*/
 
 .search {
@@ -217,6 +188,30 @@ hr {
 	vertical-align: middle;
 	margin-right: 21px;
 	border-radius: 0;
+}
+
+/*Contact Info on Homepage - Start*/
+
+.contact-info {
+	border: 1px solid #e4e4e4;
+	margin-bottom: 20px;
+}
+
+.contact-info .content {
+	padding: 10px;
+}
+
+.contact-info .block-title {
+	background-color: #5c5c5c;
+	color: #ffffff;
+	padding: 10px;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: 'Asap', sans-serif;
+	font-size: 1.0rem;
+	font-family: 'Asap', sans-serif;
+	font-weight: 500;
+	margin-bottom: 0;
 }
 
 /*Button - Start*/
@@ -361,6 +356,10 @@ hr {
 	padding: 15px 0px;
 }
 
+.white_band p {
+	text-align: center;
+}
+
 /* Large Devices, Wide Screens */
 
 @media only screen and (max-width: 1200px) {}
@@ -383,6 +382,10 @@ hr {
 /* Extra Small Devices, Phones */
 
 @media only screen and (max-width: 480px) {
+	.globalex_logo {
+		margin: 40px 0px 40px 0px;
+		width: 75%;
+	}
 	.globalex_logo img {
 		width: 100% !important;
 	}
@@ -390,7 +393,7 @@ hr {
 		width: 100% !important;
 	}
 	.navbar {
-    	padding: .5rem 0rem;
+		padding: .5rem 0rem;
 	}
 	.article_navigation .nav-item {
 		background-color: #3d698d;
@@ -410,22 +413,19 @@ hr {
 		margin-right: 15px;
 		border-radius: 0;
 	}
-	.article-page h1 {
-    	font-size: 30px;
-    	font-weight: bold;
-    	text-align: center;
-	}
 	h1 {
 		font-size: 30px;
 		font-weight: bold;
 		margin-bottom: 30px;
 	}
-	.globalex_logo {
-		margin: 40px 0px 40px 0px;
-    	width: 75%;
+	.article-page h1 {
+		font-size: 30px;
+		font-weight: bold;
+		text-align: center;
 	}
 }
 
 /* Custom, iPhone Retina */
 
 @media only screen and (max-width: 320px) {}
+
