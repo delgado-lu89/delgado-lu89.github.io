@@ -389,6 +389,9 @@ hr {
 	.navbar img {
 		width: 100% !important;
 	}
+	.navbar {
+    	padding: .5rem 0rem;
+	}
 	.article_navigation .nav-item {
 		background-color: #3d698d;
 		margin-right: 0px !important;
