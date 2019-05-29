@@ -177,14 +177,14 @@ hr {
 /*Homepage Search Bar - Start*/
 
 .search {
-	margin: 0px 0px 30px 0px;
+	margin: 40px 0px 40px 0px;
 	background-color: #e9ecef !important;
 	padding: 20px;
 }
 
 .form-inline .form-control {
 	display: inline-block;
-	width: 86%;
+	width: 90%;
 	vertical-align: middle;
 	margin-right: 21px;
 	border-radius: 0;
@@ -413,7 +413,7 @@ hr {
 	}
 	.form-inline .form-control {
 		display: inline-block;
-		width: 58%;
+		width: 63%;
 		vertical-align: middle;
 		margin-right: 15px;
 		border-radius: 0;
