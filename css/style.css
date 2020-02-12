@@ -60,7 +60,7 @@
 .dropdown-item:focus, .dropdown-item:hover {
     color: rgba(255,255,255,.75);
     text-decoration: none;
-    background-color: none;
+    background-color: #4D2A69;
 
 }
 
