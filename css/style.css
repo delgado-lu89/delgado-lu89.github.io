@@ -9,6 +9,13 @@
     background-color: #4D2A69;
     border-color: #4D2A69;
 }
+
+.show > .btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #4D2A69;
+    border-color: #4D2A69;
+}
+
 .dropdown-menu {
     position: absolute;
     top: 100%;
@@ -18,7 +25,7 @@
     float: left;
     min-width: 10rem;
     padding: .5rem 0;
-    margin: .125rem 0 0;
+    margin: .125rem -13.85rem 0;
     font-size: 1rem;
     color: #ffffff;
     text-align: left;
