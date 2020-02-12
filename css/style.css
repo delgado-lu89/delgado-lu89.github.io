@@ -16,6 +16,10 @@
     border-color: #4D2A69;
 }
 
+.show > .btn-secondary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
 .dropdown-menu {
     position: absolute;
     top: 100%;
