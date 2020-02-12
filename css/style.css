@@ -4,6 +4,11 @@
     border-color: #4D2A69;
 }
 
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #4D2A69;
+    border-color: #4D2A69;
+}
 .dropdown-menu {
     position: absolute;
     top: 100%;
